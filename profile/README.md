@@ -18,24 +18,6 @@ Together, these layers help coding agents move beyond one-shot code generation a
 
 ---
 
-## From Demo to Delivery
-
-AI coding has made it easier than ever to create demos, prototypes, and personal tools. But a demo that works once is not the same as software that can be trusted, shipped, repaired, and evolved.
-
-Valkor focuses on the missing infrastructure between generated code and usable software:
-
-1. **Scope** - preserving the original goal, constraints, architecture decisions, and acceptance intent
-2. **State** - keeping delivery progress, runtime needs, task results, and failure history outside of fragile chat context
-3. **Evidence** - proving what was built, what was checked, what failed, what was repaired, and why the result is ready to hand off
-
-The result is a software delivery loop designed for agents:
-
-```text
-request -> plan -> build -> verify -> repair -> preview -> handoff
-```
-
----
-
 ## What We Build
 
 Valkor is building infrastructure for the full agent-native delivery cycle.
