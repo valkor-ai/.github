@@ -1,8 +1,8 @@
 # Valkor
 
-Valkor builds **delivery infrastructure for Software 3.0** - helping AI coding agents, developers, and teams turn software ideas into reliable, verifiable, and maintainable products.
+Valkor builds **AI-native software delivery infrastructure** - helping coding agents, developers, and teams turn software ideas into reliable, verifiable, and maintainable products.
 
-We are building the **agent-native software delivery layer** and the software simulation environments behind it, where coding agents can plan, run, fail, repair, verify, preview, and hand off real software across tools, environments, and teams.
+We are building the **agent-native software delivery layer** and the software simulation environments behind it: systems where coding agents can plan, run, fail, repair, verify, preview, and hand off real software across tools, environments, and teams.
 
 ---
 
@@ -20,7 +20,7 @@ Together, these layers help coding agents move beyond one-shot code generation a
 
 ## What We Build
 
-Valkor is building infrastructure for the full agent-native delivery cycle.
+Valkor is building infrastructure for the full AI-native software delivery cycle.
 
 Our work is organized around the systems that make AI software work reliable:
 
