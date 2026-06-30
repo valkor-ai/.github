@@ -1,66 +1,30 @@
 # Valkor
+Valkor builds AI-native software infrastructure for the next generation of software engineering.
 
-Valkor builds **AI-native software delivery infrastructure** - helping coding agents, developers, and teams turn software ideas into reliable, verifiable, and maintainable products.
+AI tools are already good at autocomplete and generating code snippets. The harder challenge is reimagining the software stack itself for an era of autonomous development—how we execute software, manage development state across AI sessions, handle runtime feedback, and build systems that are natively designed for AI agents to interact with.
 
-We are building the **agent-native software delivery layer** and the software simulation environments behind it: systems where coding agents can plan, run, fail, repair, verify, preview, and hand off real software across tools, environments, and teams.
+Today, developers still spend too much time manually testing, debugging, and bridging the gap between AI code and complex systems. We build the underlying infrastructure to change how software is built, verified, and shipped.
 
----
+## Our Focus
+To drive the next paradigm shift in software engineering, the environment itself needs to adapt. We build the core infrastructure layers that make development and production systems natively interactive for AI:
 
-## Valkor Delivery Stack
+Stateful Runtimes: Sandboxes and architectures where development tasks survive long work sessions, unexpected interruptions, and context resets.
 
-The **Valkor Delivery Stack** delivers three core layers:
+Verifiable Systems: Software environments where agents can run code, catch true runtime logs, and test fixes against strict assertions before delivery, ensuring safe and autonomous deployment.
 
-1. **Delivery Protocol** - turning goals into scoped tasks, persistent context, task contracts, and adaptive delivery workflows
-2. **Verification & Repair** - transforming tests, logs, browser checks, preview evidence, and failures into structured repair loops
-3. **Runtime & Governance** - giving agents durable delivery state, backend readiness, multi-agent routing, handoff evidence, and team-level control
+Execution Trajectories: Tracking and structuring the exact end-to-end paths an agent takes from a high-level intent to a working result.
 
-Together, these layers help coding agents move beyond one-shot code generation and into repeatable software delivery.
+The Evolution Loop: Capturing real-world interaction data (whether code runs or fails, whether systems pass or break) to continually align and improve the capabilities of future software models.
 
----
+## The Horizon
+We are building toward AI-native software systems—rethinking the tools, platforms, and architectures that will define the future of software development.
 
-## What We Build
+This means creating practical tooling for developers today, while answering a fundamental question: If AI agents become the primary developers of software, how should the entire software infrastructure be designed to support them?
 
-Valkor is building infrastructure for the full AI-native software delivery cycle.
+The next major leap in software engineering will not come from simply fitting AI into our current tools with larger context windows or better autocomplete. It will come from a fundamental shift in how software infrastructure is organized, making the entire development lifecycle natively executable, verifiable, and manageable for AI.
 
-Our work is organized around the systems that make AI software work reliable:
+That is the architecture Valkor is building.
 
-1. **Software Simulation Environments** - executable worlds where agents can run code, inspect behavior, trigger failures, and test repairs
-2. **Delivery State** - persistent context, task progress, runtime requirements, and decision history
-3. **Verification Systems** - tests, previews, logs, browser checks, and evidence that show whether software is ready
-4. **Repair Loops** - structured paths from failure detection to diagnosis, fix, regression check, and re-verification
-5. **Handoff & Governance** - readable delivery records for builders, teams, reviewers, and future agents
+## Products
 
-Projects may change over time, but the core direction stays the same: make agent-built software more dependable, inspectable, and ready to evolve.
-
----
-
-## From Simulation to World Models
-
-Valkor's long-term direction is to move from agent software delivery into **software world model infrastructure**.
-
-A software simulation environment gives agents a place to interact with code as a living system: change files, run applications, observe runtime behavior, hit errors, inspect logs, repair defects, and verify outcomes.
-
-Every delivery run produces a trajectory:
-
-```text
-request -> context -> plan -> code change -> build -> runtime behavior -> failure -> repair -> verification -> handoff
-```
-
-Over time, these trajectories can become the foundation for software world models: systems that understand how software changes, why delivery fails, which repairs are likely to work, and what evidence is enough to trust a release.
-
-That is Valkor's deeper thesis: the future of AI software creation needs not only stronger coding agents, but also simulated software worlds where agents can learn to deliver.
-
----
-
-## Why Valkor
-
-Coding agents are becoming powerful enough to write real software. The next bottleneck is not only generation quality - it is reliable delivery.
-
-Valkor is built for the next phase of software creation:
-
-1. **Agent-native workflows** for long-running, interruptible, multi-step software work
-2. **Observable delivery state** that survives context loss, agent switches, and handoffs
-3. **Verification-first execution** where tests, previews, logs, and repair traces become first-class delivery artifacts
-4. **Software world model infrastructure** built from real delivery trajectories, failure modes, repair paths, and verification evidence
-
-Valkor starts with the infrastructure that helps coding agents deliver, and moves toward agent systems shaped by software simulation, delivery trajectories, and software world models.
+Loom: https://github.com/valkor-ai/loom
