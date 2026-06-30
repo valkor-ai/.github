@@ -21,6 +21,8 @@ We are building toward AI-native software systems—rethinking the tools, platfo
 
 This means creating practical tooling for developers today, while answering a fundamental question: If AI agents become the primary developers of software, how should the entire software infrastructure be designed to support them?
 
+Longer term, this points toward software world models built from real execution, failure, repair, and verification trajectories.
+
 The next major leap in software engineering will not come from simply fitting AI into our current tools with larger context windows or better autocomplete. It will come from a fundamental shift in how software infrastructure is organized, making the entire development lifecycle natively executable, verifiable, and manageable for AI.
 
 That is the architecture Valkor is building.
